@@ -1,0 +1,70 @@
+/* LoginPage.css */
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.flex-abs-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.screen {
+  height: 100vh;
+  width: 100vw;
+  background-color: #0a0f25; /* Dark blue background */
+}
+
+.text-box {
+  outline: none;
+  padding: 15px;
+  margin: 8px 0;
+  width: 20vw;
+  background: #1a233a; /* Darker blue text box background */
+  border-radius: 5px;
+  border: 1px solid #3a4b68; /* Blue border for text box */
+  color: #e0e0e0; /* Light text color */
+}
+
+.text-box::placeholder {
+  color: #888; /* Placeholder color */
+}
+
+.btn {
+  padding: 12px 10px;
+  width: 150px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 30px;
+  background: #3a5bb8; /* Blue button */
+  color: #ffffff; /* Light text color */
+  font-size: large;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #5a7ae0; /* Lighter blue on hover */
+}
+
+.heading {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #ffffff; /* Light text color */
+}
+
+.card {
+  border-radius: 10px;
+  margin: 10px;
+  padding: 30px 40px;
+  box-shadow: 0 0 10px 0 #000; /* Dark shadow */
+  background: #1b2d4a; /* Dark blue card background */
+  color: #e0e0e0; /* Light text color */
+}
